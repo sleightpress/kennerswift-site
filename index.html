@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kenner Swift</title>
+  <meta name="description" content="Placeholder description for Kenner Swift." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="#" class="logo">Kenner Swift</a>
+    <nav class="site-nav">
+      <a href="#about">About</a>
+      <a href="#subscribe">Subscribe</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Hero headline goes here</h1>
+        <p class="hero-subtitle">
+          A short, punchy subtitle that explains what this site is about.
+          Replace this placeholder copy with real content.
+        </p>
+        <a href="#subscribe" class="cta-button">Get updates</a>
+      </div>
+      <div class="hero-image">
+        <div class="image-slot" aria-label="Hero image placeholder">
+          <span>Hero image</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-image">
+        <div class="image-slot" aria-label="About image placeholder">
+          <span>About image</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <h2>About</h2>
+        <p>
+          Placeholder about copy. A paragraph or two introducing who you are,
+          what you do, and why a visitor should care. Keep it short, warm,
+          and specific.
+        </p>
+        <p>
+          A second paragraph can add detail — your background, what you're
+          working on now, or what readers can expect from subscribing.
+        </p>
+      </div>
+    </section>
+
+    <section id="subscribe" class="subscribe">
+      <h2>Stay in the loop</h2>
+      <p>Drop your email to get occasional updates. No spam.</p>
+
+      <form
+        name="subscribe"
+        method="POST"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        class="subscribe-form"
+      >
+        <input type="hidden" name="form-name" value="subscribe" />
+        <p hidden>
+          <label>Don't fill this out: <input name="bot-field" /></label>
+        </p>
+
+        <label for="email" class="visually-hidden">Email address</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="you@example.com"
+          required
+        />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Kenner Swift</p>
+  </footer>
+</body>
+</html>
