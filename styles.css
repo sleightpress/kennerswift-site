@@ -170,6 +170,15 @@ a:hover {
   background: var(--color-accent-hover);
 }
 
+/* KS logo (about section) */
+.ks-logo {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin: 0 auto;
+}
+
 /* Image slots (placeholders) */
 .image-slot {
   width: 100%;
