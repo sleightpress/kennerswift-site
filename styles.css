@@ -82,15 +82,20 @@ a:hover {
 
 /* Hero */
 .hero {
-  max-width: 800px;
+  max-width: var(--max-width);
   margin: 0 auto;
-  padding: 4rem 1.5rem 5rem;
+  padding: 3rem 1.5rem 5rem;
   text-align: center;
 }
 
-.hero-subtitle {
-  font-size: 1.15rem;
-  margin-bottom: 2rem;
+.cover-image {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  margin: 0 auto 2.5rem;
+  border-radius: var(--radius);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
 }
 
 .cta-button {
