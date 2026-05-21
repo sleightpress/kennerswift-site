@@ -61,27 +61,23 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Header */
-.site-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 1.5rem 1.5rem;
+/* Banner */
+.site-banner {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: var(--color-bg);
 }
 
-.logo {
-  font-family: var(--font-serif);
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: var(--color-fg);
+.site-banner a {
+  display: block;
+  line-height: 0;
 }
 
-.site-nav a {
-  margin-left: 1.5rem;
-  color: var(--color-fg);
-  font-size: 0.95rem;
+.banner-image {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* Hero */
