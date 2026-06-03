@@ -84,7 +84,7 @@ a:hover {
 /* Primary nav */
 .nav-bar {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 1rem 1.5rem 0;
@@ -97,7 +97,7 @@ a:hover {
 .site-nav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 0.5rem;
 }
 
